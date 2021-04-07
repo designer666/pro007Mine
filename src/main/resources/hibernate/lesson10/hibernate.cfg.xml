@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <!--Настройка к БД-->
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/hibernate?useSSl=false</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">root</property>
+        <!--Для того, чтобы активировать отображение SQL запросов в консоли, необходимо добавить опцию show_sql-->
+        <property name="hibernate.show_sql">true</property>
+        <!--Основные режимы работы Hibernate
+            create - позволяет создать БД, добавлять в нее данные, но с каждым запуском программы БД будет генерироваться по новому
+            create-drop - создает БД на этапе работы программы и после ее завершения удаляет ее
+            update - создает БД (если она не существует) и при последующих запусках программы подключается к существующей
+            validate - верефицирует классы Entity и БД, и в случае если верификация прошла успешно работает как update-->
+
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <property name="hibernate.dialect">org.hibernate.dialect.MariaDBDialect</property>
+
+        <mapping class="hibernate.lesson10.entity.Order"/>
+    </session-factory>
+</hibernate-configuration>

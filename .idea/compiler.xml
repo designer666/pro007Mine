@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pro007_WEB_Sessions" />
+        <module name="pro007_web" />
+        <module name="service-core" />
+        <module name="pro007_rest_client" />
+        <module name="service-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pro007_rest" target="1.5" />
+      <module name="pro007_rest_client" target="1.5" />
+      <module name="pro007_web" target="1.5" />
+      <module name="pro007_WEB_Sessions" target="1.5" />
+      <module name="pro007Mine" target="1.8" />
+      <module name="rest-api" target="1.5" />
+      <module name="rest-core" target="1.5" />
+      <module name="service-api" target="1.5" />
+      <module name="service-core" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

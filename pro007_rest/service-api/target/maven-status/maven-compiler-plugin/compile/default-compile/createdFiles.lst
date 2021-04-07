@@ -1,0 +1,6 @@
+com/service/api/response/GeneralErrorResponse.class
+com/service/api/dto/StudentDTO.class
+com/service/api/request/UpdateStudentRequest.class
+com/service/api/endpoint/StudentsEndpoint.class
+com/service/api/request/CreateStudentRequest.class
+com/service/api/response/GeneralResponse.class

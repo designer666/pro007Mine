@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>JavaScript Example</title>
+
+    <script>
+        /*JavaScript - интерпретируемый язык, который выполняется в процессе его обработки браузером. Язык не является типизированным*/
+        value = 1;
+        value = 'Hello';
+        value = true;
+        value = "Test";
+        console.log('Значение переменной value:', value);
+
+        /*Обьекты*/
+        obj = new Object();
+        obj.id = 10;
+        obj.name = 'Morphius';
+        obj.age = 200;
+
+        console.log('Обьект OBJ:', obj);
+
+        var variable1 = 5.5;
+        var variable2 = 6;
+        document.writeln('Переменная 1: ', variable1, "Переменная 2: ", variable2 + '<br/>');
+        document.writeln('Сумма: ', variable1 + variable2, '<br/>');
+
+        result = 5 + 2;
+        document.writeln(result, '<br/>');
+        result = 5 - '3';
+        document.writeln(result, '<br/>');
+        result = '50' - '30';
+        document.writeln(result, '<br/>');
+        result = 7 + '5';
+        document.writeln(result, '<br/>');
+        result = 7 + 'foo';
+        document.writeln(result, '<br/>');
+        result = 7 - 'foo';
+        document.writeln(result, '<br/>');
+        result;
+        document.writeln(result, '<br/>');
+        var result1;
+        document.writeln(result, '<br/>');
+        result1 = null;
+        document.writeln(result1, '<br/>');
+        result1 = null + 1;
+        document.writeln(result1, '<br/>');
+        result1 = null - 1;
+        document.writeln(result1, '<br/>');
+        result1 = null - '1';
+        document.writeln(result1, '<br/>');
+
+        /*Массивы*/
+        var array = new Array(1, true, 'Hello', 5.87, NaN);
+        document.writeln('Массив: ', array, '<br/>');
+        '<hr/>';
+
+    </script>
+</head>
+<body></body>
+</html>

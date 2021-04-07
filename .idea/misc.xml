@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/pro007_rest/pom.xml" />
+        <option value="$PROJECT_DIR$/pro007_web/pom.xml" />
+        <option value="$PROJECT_DIR$/pro007_WEB_Sessions/pom.xml" />
+        <option value="$PROJECT_DIR$/pro007_rest_client/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/pro007_rest/rest-api/pom.xml" />
+        <option value="$PROJECT_DIR$/pro007_rest/rest-core/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8(Java131)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

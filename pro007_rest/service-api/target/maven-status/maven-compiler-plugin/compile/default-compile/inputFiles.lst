@@ -1,0 +1,6 @@
+/home/kyojin/ItCentre/pro007/pro007_rest/service-api/src/main/java/com/service/api/dto/StudentDTO.java
+/home/kyojin/ItCentre/pro007/pro007_rest/service-api/src/main/java/com/service/api/endpoint/StudentsEndpoint.java
+/home/kyojin/ItCentre/pro007/pro007_rest/service-api/src/main/java/com/service/api/response/GeneralResponse.java
+/home/kyojin/ItCentre/pro007/pro007_rest/service-api/src/main/java/com/service/api/request/UpdateStudentRequest.java
+/home/kyojin/ItCentre/pro007/pro007_rest/service-api/src/main/java/com/service/api/request/CreateStudentRequest.java
+/home/kyojin/ItCentre/pro007/pro007_rest/service-api/src/main/java/com/service/api/response/GeneralErrorResponse.java

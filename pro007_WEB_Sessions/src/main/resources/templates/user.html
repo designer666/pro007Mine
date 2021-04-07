@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title>Учетная запись</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Создание пользователя</legend>
+            <form id="customer"
+                  th:action="@{/user}"
+                  th:object="${customerModel}"
+                  method="post">
+                <p><input placeholder="Введите логин" type="text" th:field="*{login}"/></p>
+                <p><input placeholder="Введите пароль" type="text" th:field="*{password}"/></p>
+                <input type="submit" value="Добавить"/>
+            </form>
+        </fieldset>
+    </body>
+</html>

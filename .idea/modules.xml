@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pro007Mine.iml" filepath="$PROJECT_DIR$/pro007Mine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro007_WEB_Sessions/pro007_WEB_Sessions.iml" filepath="$PROJECT_DIR$/pro007_WEB_Sessions/pro007_WEB_Sessions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro007_rest/pro007_rest.iml" filepath="$PROJECT_DIR$/pro007_rest/pro007_rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro007_rest_client/pro007_rest_client.iml" filepath="$PROJECT_DIR$/pro007_rest_client/pro007_rest_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro007_web/pro007_web.iml" filepath="$PROJECT_DIR$/pro007_web/pro007_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro007_rest/service-api/service-api.iml" filepath="$PROJECT_DIR$/pro007_rest/service-api/service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro007_rest/service-core/service-core.iml" filepath="$PROJECT_DIR$/pro007_rest/service-core/service-core.iml" />
+    </modules>
+  </component>
+</project>
